@@ -20,7 +20,7 @@ function render(state) {
   current = state;
   el('port').value = state.port;
   el('toggle').textContent = state.enabled ? 'خاموش‌کردن مسیر Tor' : 'فعال‌کردن مسیر Tor';
-  let title = 'روزن خاموش است', description = 'Tor را متصل نگه دارید، سپس مسیر را فعال و آزمایش کنید.', error = false;
+  let title = 'روزنه خاموش است', description = 'Tor را متصل نگه دارید، سپس مسیر را فعال و آزمایش کنید.', error = false;
   if (state.enabled) {
     title = 'مسیر Tor تنظیم شد';
     description = 'اکنون «آزمایش اتصال Tor» را بزنید. تنظیم مسیر به‌تنهایی اتصال را تأیید نمی‌کند.';
@@ -35,7 +35,7 @@ function render(state) {
       description = 'Tor باید باز و متصل باشد. درگاه محلی یا سرویس بررسی ممکن است در دسترس نباشد؛ راهنمای نصب را ببینید.'; error = true;
     }
   } else if (['controlled_by_other_extensions', 'not_controllable'].includes(state.levelOfControl)) {
-    title = 'کنترل پروکسی در اختیار روزن نیست'; description = errors.CONTROL; error = true;
+    title = 'کنترل پروکسی در اختیار روزنه نیست'; description = errors.CONTROL; error = true;
   }
   el('title').textContent = title; el('description').textContent = description;
   document.querySelector('.status').dataset.state = error ? 'error' : 'normal'; controls();

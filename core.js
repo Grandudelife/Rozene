@@ -11,7 +11,7 @@
   }
   function pac(value) {
     const p = port(value);
-    return '// Rozane Tor v0.4.0\n' +
+    return '// Rozaneh Tor v0.4.1\n' +
       'function FindProxyForURL(url, host) {\n' +
       '  host = host.toLowerCase().replace(/\\.$/, "");\n' +
       '  var roots = ' + JSON.stringify(ROOTS) + ';\n' +
@@ -37,5 +37,5 @@
   }
   const api = {DEFAULT_PORT, ROOTS, EXACT, port, pac, config, configuredPort};
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
-  else root.Rozane = api;
+  else root.Rozaneh = api;
 })(globalThis);

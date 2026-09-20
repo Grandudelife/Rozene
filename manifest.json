@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Rozane — Google via Tor",
-  "version": "0.4.0",
-  "description": "اتصال Gemini، Flow و Notebook در کروم به Tor محلی؛ نیازمند Tor Browser روشن و متصل.",
+  "name": "روزنه — اتصال ابزارهای گوگل با Tor",
+  "version": "0.4.1",
+  "description": "اتصال Gemini، Flow و Notebook در Chrome به Tor محلی؛ نیازمند Tor Browser روشن و متصل.",
   "minimum_chrome_version": "111",
   "permissions": [
     "proxy",
@@ -16,7 +16,7 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "روزن | Gemini · Flow · Notebook",
+    "default_title": "روزنه | Gemini · Flow · Notebook",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "assets/icon16.png",

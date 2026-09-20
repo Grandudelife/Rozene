@@ -47,7 +47,7 @@ function mock({owner='controllable_by_this_extension',isTor=true,fetchFails=fals
     storage:{local:{get(arg,cb){cb({...arg,...saved});},set(arg,cb){Object.assign(saved,arg);cb();}}},
     action:{setBadgeText:async()=>{},setBadgeBackgroundColor:async()=>{},setTitle:async()=>{}}
   };
-  const ctx=vm.createContext({chrome,Rozane:R,importScripts(){},AbortController,setTimeout,clearTimeout,fetch:async (url,options)=>{
+  const ctx=vm.createContext({chrome,Rozaneh:R,importScripts(){},AbortController,setTimeout,clearTimeout,fetch:async (url,options)=>{
     fetchCount++;fetchOptions=options;
     assert.equal(url,'https://check.torproject.org/api/ip');
     if(fetchFails)throw new Error('failed');

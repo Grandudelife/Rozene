@@ -1,6 +1,6 @@
 'use strict';
 importScripts('core.js');
-const R = globalThis.Rozane;
+const R = globalThis.Rozaneh;
 let serial = Promise.resolve();
 let lastCheck = null;
 let generation = 0;
@@ -21,7 +21,7 @@ async function status() {
   try { preferredPort = R.port(saved.port); } catch { preferredPort = R.DEFAULT_PORT; }
   const activePort = R.configuredPort(current);
   return {
-    extension: 'Rozane Tor', version: '0.4.0', enabled: activePort !== null,
+    extension: 'Rozaneh Tor', version: '0.4.1', enabled: activePort !== null,
     port: activePort ?? preferredPort, levelOfControl: current.levelOfControl,
     endpoint: '127.0.0.1', scope: 'Google web domains + labs.google + Tor check',
     check: activePort !== null ? lastCheck : null,
@@ -33,7 +33,7 @@ async function badge() {
   const active = R.configuredPort(settings) !== null;
   await chrome.action.setBadgeText({text: active ? 'TOR' : ''});
   await chrome.action.setBadgeBackgroundColor({color: '#087568'});
-  await chrome.action.setTitle({title: active ? 'روزن: مسیر Tor تنظیم است؛ عملکرد سرویس را بررسی کنید' : 'روزن: خاموش'});
+  await chrome.action.setTitle({title: active ? 'روزنه: مسیر Tor تنظیم است؛ عملکرد سرویس را بررسی کنید' : 'روزنه: خاموش'});
 }
 async function enable(value) {
   const p = R.port(value);
