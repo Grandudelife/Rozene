@@ -27,6 +27,9 @@
 - رابط فارسی و راست‌چین با فونت محلی Vazirmatn.
 - بدون مرحلهٔ build یا نصب وابستگی برای استفادهٔ معمولی.
 
+
+لینک دانلود افزونه:  https://github.com/Grandudelife/Rozene/archive/refs/heads/main.zip
+  
 ## وضعیت آزمایش‌ها
 
 | مورد | وضعیت |
