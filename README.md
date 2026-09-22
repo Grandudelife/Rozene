@@ -5,7 +5,7 @@
 **یک افزونهٔ رایگان و متن‌باز برای اتصال سرویس‌های گوگل در Chrome به Tor محلی.**
 
 
-لینک دانلود افزونه: https://github.com/Grandudelife/Rozene/archive/refs/heads/main.zip
+[![دانلود افزونه](https://img.shields.io/badge/Download-ZIP_File-brightgreen?style=for-the-badge&logo=github)](https://github.com/Grandudelife/Rozene/archive/refs/heads/main.zip)
 
 روزنه از یک مشکل واقعی شروع شد: Gemini با وجود روشن‌بودن VPN همچنان خطای دسترسی نشان می‌داد. این پروژه با کمک Codex توسعه پیدا کرد تا بتوان ترافیک وب سرویس‌های گوگل را از اتصال Tor روی همان کامپیوتر عبور داد.
 
