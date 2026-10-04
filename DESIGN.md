@@ -12,3 +12,6 @@ Acceptance: manifest at ZIP's first folder root; no content scripts or prompt/co
 
 ## 0.4.1 scope before implementation
 Keep the established 360px RTL tokens and status-first flow. One full-width transport test followed by three equal service launch buttons: Gemini, Flow, Notebook. Add labs.google legacy Flow routing; retain all existing Google root boundaries. No country-status response patches or remote vendor code. Same portable extension package for macOS and Windows; local Tor remains required. Provide upgrade, daily startup and sharing instructions. Actual Flow/Notebook success is not inferred from Tor-check success.
+
+## 0.5.0
+Retain RTL tokens. Four service buttons in a two-column grid. Launch through the background worker after route activation and ownership verification. Loopback Tor/SOCKS5/HTTP selection in existing connection settings, editable only while off. No new permissions. Keep transport checks distinct from country and signed-in app success. Remove the obsolete fixed public-exit recommendation.

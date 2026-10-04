@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "روزنه — اتصال ابزارهای گوگل با Tor",
-  "version": "0.4.1",
-  "description": "اتصال Gemini، Flow و Notebook در Chrome به Tor محلی؛ نیازمند Tor Browser روشن و متصل.",
+  "name": "روزنه — مسیر اتصال ابزارهای گوگل",
+  "version": "0.5.0",
+  "description": "اتصال Gemini، Flow، AI Studio و Notebook در Chrome به Tor یا پروکسی محلی انتخاب‌شده؛ نیازمند خروجی فعال و قابل‌استفاده.",
   "minimum_chrome_version": "111",
   "permissions": [
     "proxy",
@@ -16,7 +16,7 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "روزنه | Gemini · Flow · Notebook",
+    "default_title": "روزنه | Gemini · Flow · AI Studio · Notebook",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "assets/icon16.png",
